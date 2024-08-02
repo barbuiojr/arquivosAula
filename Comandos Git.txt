@@ -1,0 +1,13 @@
+git -v		Confere se está instaladdo
+git init	Inicializa git
+git status	Exibe o status dos arquivos para o git
+gis add .	Adiciona todos os arquivos do diretório ao Git ou:
+git add nomedoarquivo.ext
+git commit -m "mensagem" -> faz o commit do arquivo
+git log	     -> Exibe as alterações feitas
+git log --oneline -> exibe os códigos dos logs
+git revert <código> -> reverte as alterações
+git remote add origin https://github.com/barbuiojr/projeto_OngOrganizer.git
+git branch
+git push -u origin master
+git clone <link do github>
